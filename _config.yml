@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Amrit Ayalur
+tagline:          ''
+description:      'My thoughts and musings - sometimes technical, sometimes not. Follow me <a href="https://twitter.com/aayalur" target="_blank">@aayalur</a>.'
+url:              http://www.amritayalur.com
+
+author:
+  name:           'Amrit Ayalur'
+  url:            https://twitter.com/aayalur
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
