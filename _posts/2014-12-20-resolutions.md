@@ -3,7 +3,7 @@ layout: post
 title: Resolutions
 ---
 
-<img src="/public/sunset.jpg" height="400" width="750"/>
+<img src="/public/sunset-medium.jpg" />
 <div class="message">
 Sunset from an airplane. I like airplanes.
 </div>
@@ -12,7 +12,7 @@ Sunset from an airplane. I like airplanes.
 
 It's pretty crazy to think that I'm halfway done with my sophomore year of college. It feels like freshman year was just last week! In my time so far at school, I've met a lot of incredible people (*if you're reading this you're probably one of them*), and I've had some unforgettable experiences.
 
-<img src="/public/people.jpg" height="450" width="750"/>
+<img src="/public/people-medium.jpg"/>
 <div class="message">
 Some of the most awesome people I know.
 </div>
