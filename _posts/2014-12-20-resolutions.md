@@ -35,7 +35,7 @@ Lastly, I'm a huge fan of music. At the bottom of each post I'll write a quick s
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/173098071&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-This track comes off *Under Pressure*, Logic's first album. I've listened to Logic's music before, but this song is easily my favorite of his. Logic excellently manipulates rhythm in this *Gang Related*, and his wordplay is impressive. An analysis of the lyrics is on [Genius](http://genius.com/Logic-gang-related-lyrics). If you want to follow along with more of the music I've been listening to recently, check out my [SoundCloud](http://www.soundcloud.com/amritayalur). I'd love to hear what you're listening to!
+This track comes off *Under Pressure*, Logic's first album. I've listened to Logic's music before, but this song is easily my favorite of his. Logic excellently manipulates rhythm in *Gang Related*, and his wordplay is impressive. An analysis of the lyrics is on [Genius](http://genius.com/Logic-gang-related-lyrics). If you want to follow along with more of the music I've been listening to recently, check out my [SoundCloud](http://www.soundcloud.com/amritayalur). I'd love to hear what you're listening to!
 
 Thanks for reading.
 
