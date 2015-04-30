@@ -1,36 +1,60 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Amrit Ayalur</title>
+  <meta name="description" content="Amrit's Personal Website">
+  <meta name="author" content="Amrit Ayalur">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{ post.content }}
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!--
+  <div id="navbar" class="row">
+      <a class="nav-buttons" href="#">Blog</a>
+      <a class="nav-buttons" href="#">Projects</a>
+    </div>
+-->
+  <div class="container">
+    <div id="first-row" class="row">
+        <div class="profile-circular"></div>
+        <h1>Amrit Ayalur</h1>
+        <p>Studying EECS at Cal. </br> Working on Data Visualization at Kickstarter S'15. </br> Previously at Lob and Ribbon. </br> <a style="text-decoration: none;" href="http://www.medium.com/@aayalur">Interested in data.</a> </p>
+    </div>
+    <div id="social-icons"class="row">
+        <a class="icon" href="http://www.twitter.com/aayalur"><i class="fa fa-twitter fa-3x"></i></a>
+        <a class="icon" href="https://www.linkedin.com/in/amritayalur"><i class="fa fa-linkedin fa-3x"></i></a>
+        <a class="icon" href="http://www.github.com/amrit"><i class="fa fa-github fa-3x"></i></a>
+        <a class="icon" href="
+      </div>
   </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
