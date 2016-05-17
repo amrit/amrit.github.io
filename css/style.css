@@ -1,30 +1,34 @@
 body {
-    background-color: #F4F2F0  ;
+    background-color: #FEDDCC  ;
 }
 
-#navbar {
-    top: 0;
-    padding: 10px;
-}
-
-.nav-buttons {
-    float: right;
-    border: 2px solid black;
-    display: block;
-      font-weight: 600;
-      text-shadow: none;
-      text-decoration: none;
-      padding: 8px 10px;
-      font-size: 13px;
-      margin: 2px 5px;
-      border-radius: 2px;
-}
-    
 
 div#first-row {
     margin-top: 12rem;
     text-align: center;
 }
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+    color: #3C4D57;
+}
+
+.garamond h1 {
+    font-weight: 600;
+}
+
+h1.name {
+    font-family: 'Muli', sans-serif;
+}
+
+.garamond a {
+    text-decoration: none;
+    border-bottom: 1px solid #495e69;
+    color: #495e69;
+}
+#head {
+    margin-top: 10%;
+}   
 
 hr {
     border-color: black;
@@ -81,5 +85,11 @@ i {
   filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0'/></filter></svg>#grayscale");
   -webkit-filter: none;
   filter: none;
+}
+
+.footer {
+    margin-top: 5%;
+    font-weight: 100;
+    color: #5e7887;
 }
 
